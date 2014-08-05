@@ -1,0 +1,128 @@
+/* Custom Styles */
+
+/*  Layout  */
+
+body {
+	/*background-color: rgba(115, 77, 39, .85);*/
+	background: #734D27 url(../img/bg.png);
+	font: normal 145%/175% Georgia, serif;
+}
+
+.container {
+	margin: 1% auto;
+	padding: 2%;
+	background-color: #115846;
+	box-shadow: 2px 0px 2px 2px #734D27;
+}
+
+.home-snippet {
+	background-color: #ffffff;
+	padding: 2%;
+}
+
+.home-snippet img {
+	float: left;
+	margin-right: 3%;
+}
+
+/*  Header  */
+
+.logo {
+	margin-top: .25em;
+}
+
+.form-control {
+color: #555555;
+background-color: #eeeeee;
+border: 1px solid #A7A9AB;
+border-radius: 6px;
+}
+
+/*  Navigation  */
+
+a.navbar-brand, a.dropdown-toggle, ul.nav a {
+	color: #EEDA7C;
+	text-decoration: none;
+}
+
+.nav > li, .navbar>.container-fluid .navbar-brand {
+	font-size: 146%;
+}
+
+.navbar>.container-fluid .navbar-brand {
+	margin-left: 0;
+}
+
+.nav > li > a:hover,
+.nav > li > a:focus {
+	background: none;
+	color: #EEC60A;
+}
+
+/*  Typography  */
+
+h1, h2, h3, h4, h5, h6 {
+	font-family: proxima-nova, sans-serif;
+	font-weight: bold;
+	color: #115846;
+}
+
+/*  Links  */
+
+a {
+	color: #734D27;
+	text-decoration: underline;
+}
+
+/*  Utilities  */
+
+.bottom-space {
+	margin-bottom: 2%;
+	
+}
+
+.more-bottom-space {
+	margin-bottom: 4%;
+}
+
+/*  Clearing */
+
+.home-feature-clearme {
+	clear: both;
+	margin-top: 8.75em;
+}
+  	@media (min-width: 448px) {
+    .home-feature-clearme {
+      margin-top: 10.25em; } }
+  	@media (min-width: 768px) {
+    .home-feature-clearme {
+      margin-top: 6.25em; } }
+  	@media (min-width: 1200px) {
+    .home-feature-clearme {
+      margin-top: 7.25em; } }
+
+/*  Home */
+
+.home-heature-weather-clearme {
+  clear: both;	
+  background-color: #ffffff;
+  margin-left: 0; 
+  margin-right: 0;
+  overflow: hidden;
+  min-height: 20em; /* FIX  */
+  background-image:url('../img/home/weather-snow-sun-3.png');
+  background-repeat:no-repeat;
+  background-attachment:absolute;
+  background-position:70% -280%;
+}
+
+.text-weather-feature {
+
+}
+
+/*  Footer  */
+
+.social-icons {
+	float: left;
+	margin-right: .75em;
+}
