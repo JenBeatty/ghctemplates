@@ -32,17 +32,40 @@ body {
 }
 
 .form-control {
-color: #555555;
-background-color: #eeeeee;
-border: 1px solid #A7A9AB;
-border-radius: 6px;
+  color: #555555;
+  background-color: #eeeeee;
+  border: 1px solid #A7A9AB;
+  border-radius: 6px;
 }
 
 /*  Navigation  */
 
-a.navbar-brand, a.dropdown-toggle, ul.nav a {
-	color: #EEDA7C;
-	text-decoration: none;
+.navbar-default {
+	background: none;
+	border: none;
+}
+  	@media (max-width: 768px) {
+    .navbar-default {
+      background-image:url('../img/wood-bg.png');
+      background-repeat:no-repeat;
+	  background-position:left center; } }
+	  
+    @media (max-width: 768px) {
+
+      .navbar-default .navbar-collapse, .navbar-default .navbar-form {
+       	background-color: #734D27;
+      } }
+
+.navbar-default .navbar-collapse, .navbar-default .navbar-form {
+	border: none;
+}
+
+.navbar-default .navbar-toggle {
+	border: none;
+}
+
+.navbar-default .navbar-toggle:hover, .navbar-default .navbar-toggle:focus {
+	background: none;
 }
 
 .nav > li, .navbar>.container-fluid .navbar-brand {
@@ -53,10 +76,32 @@ a.navbar-brand, a.dropdown-toggle, ul.nav a {
 	margin-left: 0;
 }
 
-.nav > li > a:hover,
-.nav > li > a:focus {
-	background: none;
-	color: #EEC60A;
+a.navbar-brand, a.dropdown-toggle, ul.nav a {
+	color: #EEDA7C;
+	text-decoration: none;
+	font-size: 146%;
+}
+
+.navbar-default .navbar-brand, .navbar-default .navbar-nav>li>a {
+  color: #EEDA7C;
+  font-size: 146%;
+}
+
+.navbar-toggle {
+	float: none;
+}
+
+.navbar-default .navbar-nav>li>a:hover, a.navbar-brand.visible-xs:hover {
+	color: #EEC606;
+}
+
+.navbar-default .navbar-nav>.open>a, .navbar-default .navbar-nav>.open>a:hover, .navbar-default .navbar-nav>.open>a:focus {
+  color: #EEC606;
+  background-color: rgba(115, 77, 39, 0.7);
+}
+
+.dropdown-menu {
+	background-color: #734D27;
 }
 
 /*  Typography  */
