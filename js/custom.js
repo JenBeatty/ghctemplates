@@ -2,10 +2,6 @@
 
 $(document).ready(function() {
 	
-	//keep the featured content boxes on the homepage the same height
-	//$(".cols-top").equalHeights();
-	//$(".cols-bottom").equalHeights();
-	
     //enable an active link on top nav items
 	//$('.dropdown-toggle').click(function() {
 	//	var location = $(this).attr('href');
@@ -13,12 +9,12 @@ $(document).ready(function() {
 	//	return false;
 	//});
 	
-$(function() {
-    $('.cols-top').matchHeight();
-});
-
-$(function() {
-    $('.cols-bottom').matchHeight();
-});
+	$(function() {
+		$('.cols-top').matchHeight();
+	});
+	
+	$(function() {
+		$('.cols-bottom').matchHeight();
+	});
 
 });
