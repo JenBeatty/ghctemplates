@@ -172,3 +172,18 @@ a {
 	float: left;
 	margin-right: .75em;
 }
+
+ul.footer-nav {
+	list-style-type: none;
+	padding-left: .25em;
+	font-size: 136%;
+}
+
+ul.footer-nav li {
+	display: inline;
+	padding: 0 1.5em 0 0;
+}
+
+.footer-logos {
+	float: right;
+}
